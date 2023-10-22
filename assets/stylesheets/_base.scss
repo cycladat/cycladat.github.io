@@ -1,0 +1,22 @@
+body {
+  background-color: $primary;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 56px; // navbar height
+}
+
+p {
+  font-weight: 300;
+  line-height: 1.75rem;
+}
+
+p strong {
+  font-weight: 700;
+}
+
+.w-max-content {
+  width: max-content;
+}
+
+.z-index-1 {
+  z-index: 1;
+}

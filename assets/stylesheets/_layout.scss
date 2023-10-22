@@ -1,0 +1,147 @@
+.alert,
+.invalid-feedback {
+  text-align: left;
+}
+
+.animate {
+  opacity: 0;
+  transform: translateY(1rem);
+  transition: all 0.5s ease-in-out;
+
+  &.show {
+    opacity: 1;
+    transform: translateY(0rem);
+  }
+}
+
+@for $i from 1 through 12 {
+  section .animate:nth-child(#{$i}) {
+    transition-delay: #{($i) * 100}ms;
+  }
+}
+
+footer {
+  img {
+    height: 2rem;
+  }
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-image,
+.sub-hero-image {
+  width: 100%;
+}
+
+.sub-hero-image {
+  margin: 3rem 0 -10rem;
+}
+
+// @include media-breakpoint-up(lg) {
+//   .hero-image {
+//     bottom: 0;
+//     max-width: 46rem;
+//     position: absolute;
+//     right: -21rem;
+//   }
+
+//   .sub-hero-image {
+//     bottom: 6rem;
+//     margin: 0;
+//     max-width: 35rem;
+//     position: absolute;
+//     left: -13rem;
+//   }
+// }
+
+// @include media-breakpoint-up(xl) {
+//   .hero-image {
+//     right: -14rem;
+//   }
+
+//   .sub-hero-image {
+//     bottom: -9rem;
+//     max-width: 44rem;
+//     left: -15rem;
+//   }
+// }
+
+// @include media-breakpoint-up(xxl) {
+//   .hero-image {
+//     right: -1rem;
+//   }
+
+//   .sub-hero-image {
+//     bottom: 4rem;
+//     max-width: 34rem;
+//     left: 0rem;
+//   }
+// }
+
+.lead-form {
+  .alert {
+    display: none;
+  }
+}
+
+.modal-dialog-centered {
+  min-height: calc(100% - 50vh);
+}
+
+.navbar {
+  background-color: $black;
+
+  .navbar-brand {
+    padding: 0;
+
+    img {
+      height: 2.5rem;
+    }
+  }
+
+  .nav-link {
+    color: $grey-light;
+
+    &.active {
+      color: $accent;
+    }
+
+    &:focus,
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+section {
+  overflow: hidden;
+
+  &.dark {
+    background-color: $black;
+    color: $grey-light;
+
+    .invalid-feedback {
+      color: $grey-light;
+    }
+  }
+
+  &.light {
+    background-color: $grey-light;
+    color: $black;
+
+    .accordion-body {
+      p:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    .accordion-button,
+    .accordion-item {
+      color: $black;
+    }
+  }
+}
