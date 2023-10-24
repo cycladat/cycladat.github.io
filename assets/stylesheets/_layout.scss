@@ -6,7 +6,7 @@
 .animate {
   opacity: 0;
   transform: translateY(1rem);
-  transition: all 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
 
   &.show {
     opacity: 1;
@@ -41,46 +41,65 @@ footer {
   margin: 3rem 0 -10rem;
 }
 
-// @include media-breakpoint-up(lg) {
-//   .hero-image {
-//     bottom: 0;
-//     max-width: 46rem;
-//     position: absolute;
-//     right: -21rem;
-//   }
+@media (min-width: 992px) {
+  .hero-image {
+    position: absolute;
+    bottom: -1.5rem;
+    // max-width: 46rem;
 
-//   .sub-hero-image {
-//     bottom: 6rem;
-//     margin: 0;
-//     max-width: 35rem;
-//     position: absolute;
-//     left: -13rem;
-//   }
-// }
+    right: -21rem;
+  }
 
-// @include media-breakpoint-up(xl) {
-//   .hero-image {
-//     right: -14rem;
-//   }
+  .sub-hero-image {
+    bottom: 6rem;
+    margin: 0;
+    // max-width: 35rem;
+    position: absolute;
+    left: -13rem;
+  }
+}
 
-//   .sub-hero-image {
-//     bottom: -9rem;
-//     max-width: 44rem;
-//     left: -15rem;
-//   }
-// }
+@media (min-width: 1200px) {
+  .hero-image {
+    max-width: 56rem;
+    right: -8rem;
+  }
 
-// @include media-breakpoint-up(xxl) {
-//   .hero-image {
-//     right: -1rem;
-//   }
+  .sub-hero-image {
+    bottom: -9rem;
+    // max-width: 44rem;
+    left: -15rem;
+  }
+}
 
-//   .sub-hero-image {
-//     bottom: 4rem;
-//     max-width: 34rem;
-//     left: 0rem;
-//   }
-// }
+@media (min-width: 1400px) {
+  .hero {
+    & > .container {
+      position: relative;
+
+      &::after {
+        content: '';
+        position: absolute;
+        top: -1.5rem;
+        bottom: -1.5rem;
+        left: 100%;
+        width: 1000%;
+        background: #0d0e10;
+      }
+    }
+  }
+
+  .hero-image {
+    opacity: 1;
+    right: -1rem;
+  }
+
+  .sub-hero-image {
+    bottom: 4rem;
+    // max-width: 34rem;
+    left: 0rem;
+  }
+}
 
 .lead-form {
   .alert {
