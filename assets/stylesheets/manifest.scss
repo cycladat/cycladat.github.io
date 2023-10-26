@@ -1,4 +1,16 @@
+@import 'vendor/bootstrap/functions';
+@import 'vendor/bootstrap/variables';
+
 @import 'variables';
+
+$theme-colors: map-merge(
+  $theme-colors,
+  (
+    'primary': $primary,
+  )
+);
+
+@import 'vendor/bootstrap/bootstrap';
 
 @import 'base';
 @import 'layout';
