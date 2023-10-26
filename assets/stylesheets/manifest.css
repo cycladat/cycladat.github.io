@@ -12196,9 +12196,6 @@ section.light .accordion-item {
 .navbar .nav-link {
   color: #efefef;
 }
-.navbar .nav-link.active {
+.navbar .nav-link.active, .navbar .nav-link:focus, .navbar .nav-link:focus-visible, .navbar .nav-link:hover {
   color: #16cdff;
-}
-.navbar .nav-link:focus, .navbar .nav-link:hover {
-  text-decoration: underline;
 }/*# sourceMappingURL=manifest.css.map */

@@ -12,13 +12,11 @@
   .nav-link {
     color: $grey-light;
 
-    &.active {
-      color: $accent;
-    }
-
+    &.active,
     &:focus,
+    &:focus-visible,
     &:hover {
-      text-decoration: underline;
+      color: $accent;
     }
   }
 }
