@@ -1,3 +1,7 @@
+:root {
+  --bs-primary-bg-subtle: #{$accent};
+}
+
 body {
   background-color: $black;
   font-family: 'Open Sans', sans-serif;

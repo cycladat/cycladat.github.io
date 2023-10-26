@@ -11976,6 +11976,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+:root {
+  --bs-primary-bg-subtle: #16cdff;
+}
+
 body {
   background-color: #212121;
   font-family: "Open Sans", sans-serif;
@@ -12198,4 +12202,15 @@ section.light .accordion-item {
 }
 .navbar .nav-link.active, .navbar .nav-link:focus, .navbar .nav-link:focus-visible, .navbar .nav-link:hover {
   color: #16cdff;
+}
+
+.accordion-button i {
+  color: #16cdff;
+  transition: color 0.15s ease-in-out;
+}
+.accordion-button:focus {
+  box-shadow: 0 0 0 0.25rem rgba(22, 205, 255, 0.25);
+}
+.accordion-button:not(.collapsed) i {
+  color: #212121;
 }/*# sourceMappingURL=manifest.css.map */
