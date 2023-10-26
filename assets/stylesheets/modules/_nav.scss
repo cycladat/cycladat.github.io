@@ -1,0 +1,24 @@
+.navbar {
+  background-color: $black;
+
+  .navbar-brand {
+    padding: 0;
+
+    img {
+      height: 2.5rem;
+    }
+  }
+
+  .nav-link {
+    color: $grey-light;
+
+    &.active {
+      color: $accent;
+    }
+
+    &:focus,
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
