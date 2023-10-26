@@ -4,11 +4,13 @@ window.onload = function () {
   var nav = document.querySelector('.navbar');
   var navOffset = nav.offsetHeight;
 
-  var links = document.querySelectorAll('.navbar .nav-item a');
+  var links = document.querySelectorAll(
+    '.navbar .nav-link, [data-behavior~=cta]'
+  );
   links.forEach(function (link) {
     link.addEventListener('click', function (event) {
       var href = this.getAttribute('href');
-      var isCTA = this === document.querySelector('[data-behavior~=nav-cta]');
+      var isCTA = this.getAttribute('data-behavior') === 'cta';
 
       event.preventDefault();
       window.location.hash = href;
