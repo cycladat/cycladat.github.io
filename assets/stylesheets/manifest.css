@@ -12120,7 +12120,7 @@ section.light .accordion-item {
 }
 
 .sub-hero-image {
-  margin: 3rem 0 -10rem;
+  margin: 3rem 0 0;
 }
 
 @media (min-width: 768px) {
