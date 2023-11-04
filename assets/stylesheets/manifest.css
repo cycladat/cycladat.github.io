@@ -12104,13 +12104,27 @@ section.light .accordion-item {
 .hero .cta {
   width: 15rem;
 }
+.hero i {
+  position: relative;
+}
+.hero i::after {
+  background-color: #212121;
+  border-radius: 50%;
+  content: "";
+  height: 0.75rem;
+  left: 0.1rem;
+  position: absolute;
+  top: 0.25rem;
+  width: 0.75rem;
+  z-index: -1;
+}
 
 .hero-image {
-  position: absolute;
   bottom: -1.5rem;
+  max-width: 25rem;
+  position: absolute;
   right: 0;
   width: 80vw;
-  max-width: 25rem;
 }
 
 .stores {
@@ -12132,8 +12146,8 @@ section.light .accordion-item {
     margin-right: 20rem;
   }
   .hero-image {
-    right: -11rem;
     max-width: 50rem;
+    right: -11rem;
     width: 110%;
   }
 }
@@ -12150,11 +12164,11 @@ section.light .accordion-item {
   }
   .sub-hero-image {
     bottom: 0;
+    left: -22rem;
     margin: 0;
-    width: auto;
     max-width: 60rem;
     position: absolute;
-    left: -22rem;
+    width: auto;
   }
 }
 @media (min-width: 1200px) {
@@ -12162,8 +12176,8 @@ section.light .accordion-item {
     right: -11rem;
   }
   .sub-hero-image {
-    max-width: 55rem;
     left: -20rem;
+    max-width: 55rem;
   }
 }
 @media (min-width: 1400px) {
@@ -12171,20 +12185,20 @@ section.light .accordion-item {
     position: relative;
   }
   .hero > .container::after {
+    background: #0d0e10;
+    bottom: -1.5rem;
     content: "";
+    left: 100%;
     position: absolute;
     top: -1.5rem;
-    bottom: -1.5rem;
-    left: 100%;
     width: 1000%;
-    background: #0d0e10;
   }
   .hero-image {
     right: -1rem;
   }
   .sub-hero-image {
-    max-width: 49rem;
     left: -14rem;
+    max-width: 49rem;
   }
 }
 .navbar {
