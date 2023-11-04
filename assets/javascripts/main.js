@@ -59,4 +59,11 @@ window.onload = function () {
   hiddenElements.forEach((el) => observer.observe(el));
 
   // End Animate Elements
+
+  // Footer
+
+  const year = document.querySelector('[data-behavior~=year]');
+  year.innerHTML = new Date().getFullYear();
+
+  // End Footer
 };
