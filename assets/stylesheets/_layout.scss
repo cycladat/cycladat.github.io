@@ -64,3 +64,13 @@ section {
     }
   }
 }
+
+#sign_up {
+  img {
+    width: 100%;
+
+    @media (min-width: 992px) {
+      width: auto;
+    }
+  }
+}
