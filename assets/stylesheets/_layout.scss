@@ -24,6 +24,21 @@ footer {
   img {
     height: 2rem;
   }
+
+  .legal-links {
+    text-align: center;
+    font-size: 80%;
+    margin-top: 1rem;
+
+    a {
+      @extend .text-muted;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
 }
 
 .lead-form {

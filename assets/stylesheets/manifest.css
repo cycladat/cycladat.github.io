@@ -8486,7 +8486,7 @@ textarea.form-control-lg {
   color: rgba(var(--bs-body-color-rgb), var(--bs-text-opacity)) !important;
 }
 
-.text-muted {
+.text-muted, footer .legal-links a {
   --bs-text-opacity: 1;
   color: var(--bs-secondary-color) !important;
 }
@@ -12064,6 +12064,17 @@ section .animate:nth-child(12) {
 
 footer img {
   height: 2rem;
+}
+footer .legal-links {
+  text-align: center;
+  font-size: 80%;
+  margin-top: 1rem;
+}
+footer .legal-links a {
+  text-decoration: none;
+}
+footer .legal-links a:hover {
+  text-decoration: underline;
 }
 
 .lead-form .alert {
