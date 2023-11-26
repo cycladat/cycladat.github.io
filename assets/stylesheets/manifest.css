@@ -12160,9 +12160,9 @@ section.light .accordion-item {
   .hero-image {
     bottom: -1.5rem;
     position: absolute;
-    max-width: 56rem;
+    max-width: 62rem;
     right: -16rem;
-    width: 100%;
+    width: 105%;
   }
   .sub-hero-image {
     bottom: 0;
@@ -12176,6 +12176,7 @@ section.light .accordion-item {
 @media (min-width: 1200px) {
   .hero-image {
     right: -11rem;
+    width: 100%;
   }
   .sub-hero-image {
     left: -20rem;
