@@ -1,0 +1,15 @@
+{
+  "altitudeInMeters": false,
+  "altitudeInFeet": false,
+  "cadence": false,
+  "distanceInKm": false,
+  "distanceInMi": false,
+  "gradient": true,
+  "hrm": true,
+  "watts": true,
+  "speedInKph": false,
+  "speedInMph": false,
+  "tempInC": false,
+  "tempInF": false,
+  "time": false
+}
