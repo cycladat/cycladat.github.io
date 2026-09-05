@@ -6,7 +6,7 @@ sidebar:
 editUrl: false
 ---
 
-cycladat is free to use. Connecting Strava, importing a FIT file, the
+Cycladat is free to use. Connecting Strava, importing a FIT file, the
 editor, the standard stickers, styling, templates and exporting all cost
 nothing, for as many videos as you like. A few stickers are premium, and
 that's the whole of it.
@@ -23,7 +23,7 @@ export. If any premium sticker is on the video when you tap create, the app
 offers to unlock it. Take the premium stickers off and the export is free
 again.
 
-## The options
+## Purchase options
 
 - **This export only.** A one-off purchase that covers the export you're
   about to do. Good for the occasional big ride.

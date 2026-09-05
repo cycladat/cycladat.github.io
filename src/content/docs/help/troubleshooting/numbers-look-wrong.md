@@ -1,6 +1,6 @@
 ---
 title: The numbers look wrong
-description: Why speed, altitude and gradient in cycladat can differ from what Strava shows, and why that isn't something we can fix.
+description: Why speed, altitude and gradient in Cycladat can differ from what Strava shows, and why that isn't something we can fix.
 sidebar:
   order: 2
 editUrl: false
@@ -15,9 +15,9 @@ Short version: we show you what your device recorded. Strava shows you what
 your device recorded after Strava has cleaned it up. The gap between the two
 is your GPS, not the app.
 
-## What we actually receive
+## What the app receives
 
-When cycladat connects to your Strava account, we ask for the ride's
+When Cycladat connects to your Strava account, we ask for the ride's
 _streams_: the per-second speed, altitude, gradient, heart rate, power,
 cadence, temperature and position that make up the recording. They're the
 per-second series from the file your device uploaded, handed over as-is
@@ -31,7 +31,7 @@ and gradient over five so the stickers don't jitter, and that's the extent of
 it. There's no map lookup, no elevation database, no correction. We can't do
 what Strava does, and we wouldn't want to pretend to.
 
-## What your GPS actually recorded
+## What your GPS recorded
 
 A bike computer or watch works out where you are from satellites, and that
 only works well when it can see them. Wahoo's support page for the ELEMNT

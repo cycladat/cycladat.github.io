@@ -46,7 +46,7 @@ connection without asking Strava to revoke it. If the app is stuck in a bad
 state after a Strava login, this gets you back to the connect screen. You'll
 sign in again as normal.
 
-## Before you write
+## Check first
 
 Two things worth checking first, because they're the answer surprisingly
 often:

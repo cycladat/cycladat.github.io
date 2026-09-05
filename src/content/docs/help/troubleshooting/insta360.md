@@ -6,12 +6,12 @@ sidebar:
 editUrl: false
 ---
 
-If you film with an Insta360, cycladat shows you a warning as soon as it
+If you film with an Insta360, Cycladat shows you a warning as soon as it
 recognises the file. It's not that the video won't work. It's that the time
 the file says it was filmed is very likely wrong, and we'd rather tell you
 before you spend ten minutes wondering why the numbers are off.
 
-## Two problems, and they stack
+## Why Insta360 clips don't match
 
 **The app stamps clips with the wrong time.** When you cut a clip out of a
 longer recording in the Insta360 app, the exported file is stamped with the
@@ -54,7 +54,7 @@ few seconds of fine placement. The full walkthrough, including what the
 route trace overlay is showing you, is on
 [my data doesn't line up with the video](/help/troubleshooting/data-doesnt-line-up/).
 
-## Making it better next time
+## Before the next ride
 
 Sync the camera with the Insta360 app before the ride. That fixes the
 drift, and it means the file's timestamp at least points at the right
@@ -63,5 +63,5 @@ recording it was; you'll be dragging the window to that point.
 
 If you export the _whole_ recording rather than a clip, and the clock was
 synced, the timestamp is right and the app will match it on its own. The
-90-second limit means you'll trim in cycladat instead, and trimming keeps
+90-second limit means you'll trim in Cycladat instead, and trimming keeps
 the alignment.

@@ -12,20 +12,20 @@ isn't going to be one.
 
 ## Why
 
-Strava lets apps like cycladat read your rides through its API, and the
+Strava lets apps like Cycladat read your rides through its API, and the
 agreement that comes with that access requires attribution on anything we
 make with the data. Your speed, heart rate and altitude on that video came
 out of Strava, so the mark goes on. It's not a marketing arrangement and
 we're not paid for it. It's the price of the data, and it's a fair one.
 
-The small cycladat mark bottom-right is ours, and that one is on every
+The small Cycladat mark bottom-right is ours, and that one is on every
 export, Strava or not.
 
-## The way round it
+## Exporting without it
 
 Skip Strava. If you import the ride's `.fit` file straight from your bike
 computer, the data never touched Strava, so there's nothing to attribute.
-Exports from an imported ride carry only the cycladat mark.
+Exports from an imported ride carry only the Cycladat mark.
 
 The catch is that Strava's version of your ride is nicer than the raw file:
 the gradient is Strava's own, and altitude has been through its correction.

@@ -16,7 +16,7 @@ the source video's resolution. Stickers are rendered per second at the
 output size, so what you placed on the preview lands at the same relative
 size and position in 4K as in 1080p.
 
-Two logos are burned in and neither is optional: the cycladat mark
+Two logos are burned in and neither is optional: the Cycladat mark
 bottom-right on every export, and "Powered by Strava" bottom-left on any
 ride that came from Strava. That second one is a licence condition rather
 than a branding choice; [there's a page on it](/help/troubleshooting/strava-logo/).
@@ -49,7 +49,7 @@ Underneath: **edit** goes back to the editor with the stickers where you
 left them, for another pass at the same ride. **new** clears everything and
 takes you back to media selection.
 
-## The one way to lose it
+## Save before you leave
 
 The export lives in a temporary folder until you save or share it. Leaving
 the share page, by tapping edit or new, deletes it. So does closing the app.

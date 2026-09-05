@@ -15,7 +15,7 @@ Nearly everything is the same. Same stickers, same drag, pinch and
 double-tap, same style panel and eyedropper, same alignment strip if the
 numbers are from the wrong moment. Two things are different.
 
-## The numbers are one moment
+## Photo stickers show one moment
 
 A video sticker ticks along with the footage. A photo sticker shows a single
 sample, the second the shutter went. That makes alignment matter more, not

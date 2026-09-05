@@ -68,7 +68,7 @@ app to know which imported ride you meant. Check the camera's clock, or fix
 the file's date, and import again. See
 [using a FIT file](/help/how-to/fit-file/).
 
-## Stopping it next time
+## Before the next ride
 
 Set the camera's clock before you ride, and let the computer sync to Strava
 before you open cycladat. That's it. The match works to the second when the

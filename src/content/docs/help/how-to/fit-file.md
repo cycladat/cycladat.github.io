@@ -1,13 +1,13 @@
 ---
 title: Using a FIT file instead of Strava
-description: cycladat works without a Strava account. Import the .fit file from your bike computer and everything else is the same.
+description: Cycladat works without a Strava account. Import the .fit file from your bike computer and everything else is the same.
 sidebar:
   order: 5
 editUrl: false
 ---
 
 You don't need Strava. Every bike computer and most watches write a `.fit`
-file for each ride, and cycladat can read that file directly. The stickers,
+file for each ride, and Cycladat can read that file directly. The stickers,
 the editor, the export, all of it works the same. What changes is where the
 data comes from, and a couple of things that follow from that.
 
@@ -31,7 +31,7 @@ ride's name; otherwise it's "Ride on" followed by the date.
 Importing the same file twice does nothing. No duplicate, no error. It just
 opens the picker again.
 
-## Then it's the same app
+## After the import
 
 After the import you land on media selection as normal. Pick the video, the
 app finds the imported ride covering that moment, and you're in the editor.
@@ -49,7 +49,7 @@ on flat ground where a metre of altitude wobble becomes a percent or two of
 
 **No Strava logo on the export.** The "Powered by Strava" mark is a
 condition of using Strava's data, and a FIT file isn't Strava's data. An
-export from an imported ride carries only the small cycladat logo. If you've
+export from an imported ride carries only the small Cycladat logo. If you've
 been wondering how to get rid of the Strava mark, this is the only way:
 [why is there a Strava logo on my video](/help/troubleshooting/strava-logo/).
 

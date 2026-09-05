@@ -27,7 +27,7 @@ layout on sample footage. Tap one and the stickers appear.
 Templates place the metric versions. If you want `mph` or `ft`, double-tap
 the metric sticker off and add the imperial one from the stickers tab.
 
-## The rainbow jersey
+## Premium templates
 
 A template card wearing a rainbow jersey places at least one premium sticker
 (power, heart rate or gradient, as things stand). That's a heads-up, not a

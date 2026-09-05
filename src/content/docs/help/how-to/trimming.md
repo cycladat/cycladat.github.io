@@ -19,7 +19,7 @@ a video that short at all. Over ninety and the export gets long and the file
 gets big, and honestly nobody watches a two-minute telemetry overlay. If you
 have a long video, pick the best minute and a half of it.
 
-## The strip underneath
+## The elevation strip
 
 Below the thumbnails is the elevation strip, which is about lining the ride
 data up with the footage rather than about trimming. If the stickers are

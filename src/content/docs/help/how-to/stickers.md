@@ -49,13 +49,13 @@ _and_ travel will do both.
 adding it back is one tap in the drawer. If you double-tapped the wrong one,
 that's the fix.
 
-## Changing how it looks
+## Styling
 
 **Tap it once** to open the style panel for that sticker: fonts, colours, and
 an eyedropper for pulling a colour out of the footage. That has its own page:
 [fonts and colours](/help/how-to/fonts-and-colours/).
 
-## Where the gestures don't reach
+## Other gestures
 
 Two things aren't sticker gestures and it's worth knowing that up front.
 

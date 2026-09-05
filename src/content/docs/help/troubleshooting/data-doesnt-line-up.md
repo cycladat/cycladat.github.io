@@ -16,7 +16,7 @@ longer, because we'd rather you understood it than took our word for it.
 
 ## Why it happens
 
-cycladat has exactly one thing to go on when it lines up a video with your
+Cycladat has exactly one thing to go on when it lines up a video with your
 ride: the time the camera _says_ the video started. We read that from the
 video file, look for a Strava activity (or an imported FIT file) covering that
 moment, and pull the telemetry for that window. If the camera's clock is
@@ -60,11 +60,11 @@ every timestamp the file carries and use the earliest, on the theory that
 copies only ever push the time later, but there's a limit to how clever we
 can be with a file that's been through three apps.
 
-None of this is something cycladat can see from the inside. A video with a
+None of this is something Cycladat can see from the inside. A video with a
 wrong timestamp looks exactly like a video with a right one. What we can do
 is make it easy to fix.
 
-## The fix: slide the data along the ride
+## Slide the data along the ride
 
 Open the clip in the editor and swipe up on the video. The trim view opens,
 and under the trim strip is the **elevation strip**: your whole ride's
@@ -100,7 +100,7 @@ clock, say) zoom out, drag the window to roughly the right part of the ride
 first, then zoom in to finish.
 :::
 
-## Stopping it happening next time
+## Before the next ride
 
 Set the camera's clock before a ride you care about. On a GoPro that's
 Preferences → General → Time and Date, or open Quik with the camera connected.
