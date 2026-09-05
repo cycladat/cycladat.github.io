@@ -28,10 +28,8 @@ app to automatically synchronize the time"
 Skip that for a few weeks and the clock can be minutes out, which is
 before you even get to the first problem.
 
-Other cameras have one of these problems at most, and we can often correct
-for it. GoPros mislabel their timezone, for instance, and we fix that
-silently. Insta360 has both, and the first one can't be corrected from
-outside.
+Other cameras have one of these problems at most. Insta360 has both, and
+the first one can't be corrected from outside.
 
 ## The fix
 

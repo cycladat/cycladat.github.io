@@ -19,12 +19,9 @@ editor usually doesn't.
 
 When you trim or crop in the iOS Photos app or in Google Photos and save
 the result, the phone writes a new file. That file gets the time you
-_edited_ it, not the time you _filmed_ it. Some editors keep the original
-date in one field and overwrite another; some keep none of it; export the
-edit through a messaging app and it's gone for certain. Cycladat looks at
-every date the file carries and takes the earliest, which rescues some of
-these, but an edited copy from an hour after the ride will match nothing,
-or worse, match the wrong moment and put the wrong numbers on your video.
+_edited_ it, not the time you _filmed_ it. An edited copy from an hour after
+the ride will match nothing, or worse, match the wrong moment and put the
+wrong numbers on your video.
 
 The same goes for any edit that produces a new file: cropping, rotating,
 adding a filter, stitching clips, or "saving a copy" from a third-party

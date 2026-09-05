@@ -39,11 +39,6 @@ a battery or with a drained battery for an extended period of time"
 ([GoPro Support Hub](https://community.gopro.com/t5/Cameras/Camera-keeps-asking-to-update-date-time-and-all-files-are-dated/td-p/942712)).
 Those files come out stamped 2016, and no ride of yours covers 2016.
 
-**Some cameras write the wrong kind of time.** GoPro Hero 9 through 12 write
-local time into a field that's supposed to be UTC. We know about that one and
-correct for it, but it's a good example of how little the metadata can be
-trusted.
-
 **Some exports lie on purpose.** Insta360 is the worst case. Its app stamps
 every clip you cut from a video with the start time of the _original_ video,
 so a 30-second clip from the end of a three-hour ride claims it was filmed at
@@ -56,10 +51,8 @@ suspect before you do.
 
 **Edits and copies move timestamps.** Trim a clip in your phone's gallery,
 export it from an editor, AirDrop it, or save it from a messaging app and the
-file picks up a new "created" time. We look at every timestamp the file
-carries and use the earliest, on the theory that copies only ever push the
-time later, but there's a limit to how clever we can be with a file that's
-been through three apps. This one is avoidable: import the original and
+file picks up a new "created" time, and the app has nothing left to go on.
+This one is avoidable: import the original and
 [trim in Cycladat, not on your phone](/help/how-to/trim-in-cycladat/).
 
 None of this is something Cycladat can see from the inside. A video with a

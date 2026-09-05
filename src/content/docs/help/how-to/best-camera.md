@@ -6,64 +6,47 @@ sidebar:
 editUrl: false
 ---
 
-Cycladat lines your ride data up with a video using one thing: the time the
-file says it was filmed. So the best camera for Cycladat isn't the one with
-the best picture. It's the one that writes an honest timestamp. Ranked:
+Cycladat lines your ride data up with a video using the time the video was
+filmed. So the best camera for Cycladat is the one that gets that time
+right. Ranked:
 
 ## 1. Your phone
 
 Android or iOS, doesn't matter. A phone camera, with the **original,
-unedited video**, works best every time. The phone's clock is set from the
-network, so it's right to the second. The file carries a proper capture
-time. Cycladat reads it and the data lands on the footage with nothing for
-you to do.
+unedited video**, works best every time. The phone always knows the time,
+and the video carries it. Import the file and the data lands on the footage
+with nothing for you to do.
 
-The "original, unedited" part matters more than the phone. Trim or crop the
-clip in your phone's gallery before importing and you've usually thrown the
-timestamp away; the edited copy is stamped with the time you edited it, not
-the time you filmed it. Do your trimming inside Cycladat instead. There's a
-page on exactly this: [trim in Cycladat, not on your phone](/help/how-to/trim-in-cycladat/).
+The "original, unedited" part is the whole trick. Trim or crop the clip in
+your phone's gallery first and the edited copy no longer knows when it was
+filmed. Do your trimming inside Cycladat instead:
+[trim in Cycladat, not on your phone](/help/how-to/trim-in-cycladat/).
 
 ## 2. Ray-Ban Meta glasses
 
-Tested, verified, and they work. The glasses stamp each clip with the time
-it _ended_ rather than the time it started, which would put the data a
-clip-length late, but Cycladat recognises the files and subtracts the
-duration. Import the clip the Meta app hands to your phone and it'll match.
+Tested and verified. Import the clip the Meta app hands to your phone and
+it matches.
 
 ## 3. GoPro
 
-Not bad. GoPros have two habits: the clock drifts between syncs, and the
-Hero 9 through 12 write local time into a field that's meant to be UTC.
-Cycladat corrects the second one. The first one is on you: set the time in
-the camera menu or open the Quik app with the camera connected before you
-ride, and the match will be right. Skip that for a month and expect to
-nudge the data a few seconds with the elevation strip.
-
-Leave a GoPro without a battery for a while and it resets its clock
-entirely; those files come out dated 2016 and won't match anything. Pick
-the ride by hand and align.
+Not bad. Set the time in the camera, or open the Quik app with the camera
+connected, before you ride, and the match will be right. Leave it a month
+and expect to nudge the data a few seconds on the elevation strip.
 
 ## 4. Insta360
 
-Almost always produces a bad timestamp, and we can't correct it. Clips cut
-in the Insta360 app are stamped with the start of the original recording,
-so a clip from the end of a ride claims to be from the start, and the
-camera's clock drifts on top of that. Cycladat warns you when it sees an
-Insta360 file. The footage is fine to use; you'll be aligning it by hand
-every time. [Insta360 videos](/help/troubleshooting/insta360/) has the
-details and the fastest way to do it.
+Almost always wrong, and not something we can correct. The footage is fine
+to use, but you'll be lining the data up by hand every time. Cycladat warns
+you when it sees an Insta360 file. [Insta360 videos](/help/troubleshooting/insta360/)
+has the fastest way to do it.
 
 ## Everything else
 
-DJI, Sony, dashcams, drones, a borrowed camera: Cycladat reads every
-timestamp the file carries and uses the earliest, on the basis that copies
-and exports only ever push the time later. That's right more often than
-not. If it isn't, the fix is the same as for any camera: swipe up, and
-slide the data along the ride. See
+DJI, Sony, dashcams, drones, a borrowed camera: usually fine if the clock
+was set. If the data's off, swipe up and slide it along the ride:
 [my data doesn't line up with the video](/help/troubleshooting/data-doesnt-line-up/).
 
 ## The short version
 
-Film on your phone, import the original, trim in Cycladat. If you're using
-anything else, set its clock before you ride.
+Film on your phone, import the original, trim in Cycladat. Anything else,
+set its clock before you ride.
