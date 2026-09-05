@@ -26,9 +26,11 @@ That leaves two possibilities, and the second is far more common.
 upload is still processing. Check the activity exists on strava.com, then
 try the video again.
 
-**The video's timestamp is wrong.** The camera's clock was off, or the
-file's been through an app that changed its dates, or it's an Insta360
-export. The ride exists, but the video claims to be from a time it doesn't
+**The video's timestamp is wrong.** The camera's clock was off, or you
+trimmed the clip in your phone's gallery before importing it (the edited
+copy is dated when you edited it, not when you filmed it; see
+[trim in Cycladat, not on your phone](/help/how-to/trim-in-cycladat/)), or
+it's an Insta360 export. The ride exists, but the video claims to be from a time it doesn't
 cover. [My data doesn't line up](/help/troubleshooting/data-doesnt-line-up/)
 goes through every way that happens.
 

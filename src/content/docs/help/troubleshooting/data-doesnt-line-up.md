@@ -54,11 +54,13 @@ app to automatically synchronize the time"
 We warn you when we detect an Insta360 file, because we know the match is
 suspect before you do.
 
-**Copies move timestamps.** AirDrop a clip, export it from an editor, or save
-it from a messaging app and the file picks up a new "created" time. We look at
-every timestamp the file carries and use the earliest, on the theory that
-copies only ever push the time later, but there's a limit to how clever we
-can be with a file that's been through three apps.
+**Edits and copies move timestamps.** Trim a clip in your phone's gallery,
+export it from an editor, AirDrop it, or save it from a messaging app and the
+file picks up a new "created" time. We look at every timestamp the file
+carries and use the earliest, on the theory that copies only ever push the
+time later, but there's a limit to how clever we can be with a file that's
+been through three apps. This one is avoidable: import the original and
+[trim in Cycladat, not on your phone](/help/how-to/trim-in-cycladat/).
 
 None of this is something Cycladat can see from the inside. A video with a
 wrong timestamp looks exactly like a video with a right one. What we can do
@@ -102,7 +104,9 @@ first, then zoom in to finish.
 
 ## Before the next ride
 
-Set the camera's clock before a ride you care about. On a GoPro that's
+Film on your phone if you can, and import the original file. It's the one
+camera whose clock is always right; [which camera works best](/help/how-to/best-camera/)
+ranks the rest. Set any other camera's clock before a ride you care about. On a GoPro that's
 Preferences → General → Time and Date, or open Quik with the camera connected.
 On an Insta360, connect it to the app. It takes ten seconds and it's the
 difference between the data landing on its own and you dragging it into

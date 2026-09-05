@@ -6,6 +6,11 @@ sidebar:
 editUrl: false
 ---
 
+Trim here, not in your phone's gallery. An edited copy from the gallery
+usually loses the timestamp Cycladat needs to find your ride;
+[trim in Cycladat, not on your phone](/help/how-to/trim-in-cycladat/)
+explains why. Import the original.
+
 Swipe up on the video in the editor and the trim view opens: a strip of
 thumbnails across the width of the screen with a handle at each end. Drag the
 handles in to cut the start and end. The preview follows, and so do the
