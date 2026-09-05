@@ -37,6 +37,7 @@ both have a page here.
 - [Premium, purchases and refunds](/help/how-to/premium/)
 - [Which camera works best](/help/how-to/best-camera/)
 - [Trim in Cycladat, not on your phone](/help/how-to/trim-in-cycladat/)
+- [Indoor rides](/help/how-to/indoor-rides/)
 
 If you're stuck on something that isn't here, email
 [support@cycladat.com](mailto:support@cycladat.com). A screen recording of the
