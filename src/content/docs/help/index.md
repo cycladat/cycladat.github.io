@@ -23,6 +23,7 @@ both have a page here.
 - [Why is there a Strava logo on my video?](/help/troubleshooting/strava-logo/)
 - [Insta360 videos](/help/troubleshooting/insta360/). Two problems that stack, and the fix.
 - [Getting help](/help/troubleshooting/getting-help/). How to reach us and what to send.
+- [What's the rainbow jersey for?](/help/troubleshooting/rainbow-jersey/) It marks premium stickers. It's a label, not a lock.
 
 ## Getting things done
 
