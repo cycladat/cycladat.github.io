@@ -17,7 +17,7 @@ concurrency:
 
 jobs:
   check:
-    name: Lint markdown, typecheck, build
+    name: Lint, typecheck, build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -33,19 +33,14 @@ jobs:
         run: pnpm check
       - name: Build (fails on broken internal links)
         run: pnpm build
-
-  build:
-    needs: check
-    if: github.event_name != 'pull_request'
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: withastro/action@v3
+      - name: Upload site
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
         with:
-          package-manager: pnpm@10
+          path: dist
 
   deploy:
-    needs: build
+    needs: check
     if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     environment:
