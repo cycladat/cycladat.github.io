@@ -4,8 +4,9 @@ window.onload = function () {
   var nav = document.querySelector('.navbar');
   var navOffset = nav.offsetHeight;
 
+  // Only in-page anchors get the smooth scroll; real links (help) navigate.
   var links = document.querySelectorAll(
-    '.navbar .nav-link, [data-behavior~=cta]'
+    '.navbar .nav-link[href^="#"], [data-behavior~=cta]'
   );
   links.forEach(function (link) {
     link.addEventListener('click', function (event) {

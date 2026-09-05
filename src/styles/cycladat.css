@@ -1,0 +1,213 @@
+@import "@fontsource-variable/manrope";
+@import "@fontsource-variable/jetbrains-mono";
+
+/* Cycladat's actual palette, lifted from the app:
+     surface   #212121  (Colors.grey.shade900 — every Scaffold)
+     cyan      #16CDFF  (FadingBackground's animated gradient)
+     premium   #FFC107  (the amber paywall/badge accent)
+   The app is dark-only with thin white type and white-outlined pills; dark is
+   the "real" theme here and light mode is a readable translation of it. */
+:root {
+  --cyc-cyan: #16cdff;
+  --cyc-cyan-deep: #007fa8;
+  --cyc-amber: #ffc107;
+  --cyc-ink: #212121;
+  --cyc-muted: #5f6a6e;
+  --cyc-bg: #f4f6f7;
+  --cyc-panel: rgba(255, 255, 255, 0.8);
+  --cyc-line: rgba(33, 33, 33, 0.12);
+  --sl-font: "Manrope Variable", -apple-system, system-ui, sans-serif;
+  --sl-font-mono: "JetBrains Mono Variable", monospace;
+  --sl-color-accent-low: #cdf1fc;
+  --sl-color-accent: var(--cyc-cyan-deep);
+  --sl-color-accent-high: #064457;
+  --sl-color-white: var(--cyc-ink);
+  --sl-color-gray-1: #313537;
+  --sl-color-gray-2: #4a5052;
+  --sl-color-gray-3: #6b7376;
+  --sl-color-gray-4: #a8b0b3;
+  --sl-color-gray-5: #d9dedf;
+  --sl-color-gray-6: #e9eced;
+  --sl-color-black: var(--cyc-bg);
+  --sl-color-bg: transparent;
+  --sl-color-bg-nav: rgba(244, 246, 247, 0.85);
+  --sl-color-bg-sidebar: rgba(248, 250, 250, 0.7);
+  --sl-color-hairline-light: var(--cyc-line);
+  --sl-color-hairline: var(--cyc-line);
+  --sl-content-width: 52rem;
+  --sl-sidebar-width: 18rem;
+}
+
+:root[data-theme="dark"] {
+  --cyc-ink: #ffffff;
+  --cyc-muted: #b3bcbf;
+  --cyc-bg: #191919;
+  --cyc-panel: rgba(33, 33, 33, 0.85);
+  --cyc-line: rgba(255, 255, 255, 0.12);
+  --sl-color-accent-low: #0b3a4a;
+  --sl-color-accent: var(--cyc-cyan);
+  --sl-color-accent-high: #b9edff;
+  --sl-color-white: var(--cyc-ink);
+  --sl-color-gray-1: #eeeeee;
+  --sl-color-gray-2: #c4c9cb;
+  --sl-color-gray-3: #8d9598;
+  --sl-color-gray-4: #575c5e;
+  --sl-color-gray-5: #2c2e2f;
+  --sl-color-gray-6: #212121;
+  --sl-color-black: var(--cyc-bg);
+  --sl-color-bg-nav: rgba(25, 25, 25, 0.85);
+  --sl-color-bg-sidebar: rgba(30, 30, 30, 0.78);
+}
+
+html {
+  background: var(--cyc-bg);
+}
+
+/* The app's FadingBackground breathes between #16CDFF (top-left) and
+   grey.shade900 (bottom-right); this is the frozen-frame version of it. */
+body {
+  background:
+    linear-gradient(
+      135deg,
+      color-mix(in srgb, var(--cyc-cyan) 16%, transparent),
+      transparent 34rem
+    ),
+    radial-gradient(
+      circle at 100% 100%,
+      color-mix(in srgb, var(--cyc-cyan) 6%, transparent),
+      transparent 30rem
+    ),
+    var(--cyc-bg);
+  color: var(--cyc-ink);
+  font-family: var(--sl-font);
+  font-weight: 380; /* the app runs FontWeight.w100; this is the readable nod to it */
+  -webkit-font-smoothing: antialiased;
+}
+
+header.header {
+  border-bottom: 1px solid var(--cyc-line);
+  backdrop-filter: blur(20px) saturate(135%);
+}
+
+/* Wordmark in the nav (replacesTitle) */
+.site-title img {
+  height: 1.6rem;
+  width: auto;
+}
+
+.sidebar-pane {
+  border-inline-end: 1px solid var(--cyc-line);
+  backdrop-filter: blur(18px);
+}
+
+.sidebar-content a[aria-current="page"] {
+  border-radius: 0.8rem;
+  background: color-mix(in srgb, var(--cyc-cyan) 18%, transparent);
+  color: var(--cyc-ink);
+  font-weight: 700;
+}
+
+.content-panel {
+  padding-top: 2rem;
+}
+
+.sl-container > :is(h1, h2, h3) {
+  letter-spacing: -0.035em;
+}
+
+/* The wordmark underlines itself; section headings borrow the bar. */
+.sl-markdown-content h2:not(:where(.not-content *)) {
+  padding-bottom: 0.35rem;
+  border-bottom: 3px solid color-mix(in srgb, var(--cyc-cyan) 55%, transparent);
+  width: fit-content;
+  padding-inline-end: 1.5rem;
+}
+
+.hero {
+  margin-top: 2.25rem;
+  padding: clamp(2rem, 5vw, 4.5rem);
+  overflow: hidden;
+  border: 1px solid var(--cyc-line);
+  border-radius: 2rem;
+  background:
+    linear-gradient(
+      135deg,
+      color-mix(in srgb, var(--cyc-cyan) 22%, transparent),
+      transparent 60%
+    ),
+    var(--cyc-panel);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.18), 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* The hero wordmark */
+.hero img {
+  max-width: min(24rem, 82%);
+  height: auto;
+  margin-inline: auto;
+}
+
+.hero h1 {
+  max-width: 15ch;
+  font-size: clamp(2.6rem, 7vw, 4.8rem);
+  line-height: 0.96;
+  letter-spacing: -0.055em;
+}
+
+.hero .tagline {
+  max-width: 42rem;
+  color: var(--cyc-muted);
+  font-size: clamp(1rem, 2vw, 1.2rem);
+}
+
+/* The app's buttons are pills; primary gets the cyan, minimal stays outlined. */
+.hero .actions a {
+  border-radius: 999px;
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.hero .actions a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 28px color-mix(in srgb, var(--cyc-cyan) 25%, transparent);
+}
+
+.card-grid > article {
+  border: 1px solid var(--cyc-line);
+  border-radius: 1.4rem;
+  background: var(--cyc-panel);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(14px);
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.card-grid > article:hover {
+  transform: translateY(-3px);
+  border-color: color-mix(in srgb, var(--cyc-cyan) 45%, var(--cyc-line));
+  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.16);
+}
+
+code:not(:where(.not-content *)) {
+  border-radius: 0.4rem;
+}
+
+/* Premium/caution badges (e.g. the Historical pages) pick up the app's amber. */
+.sl-badge.caution {
+  --sl-color-orange-high: color-mix(in srgb, var(--cyc-amber) 80%, black);
+  --sl-color-orange-low: color-mix(in srgb, var(--cyc-amber) 22%, transparent);
+  border-color: var(--cyc-amber);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .hero,
+  .card-grid > article {
+    animation: cyc-enter 420ms ease both;
+  }
+
+  .card-grid > article:nth-child(2) { animation-delay: 70ms; }
+  .card-grid > article:nth-child(3) { animation-delay: 140ms; }
+  .card-grid > article:nth-child(4) { animation-delay: 210ms; }
+}
+
+@keyframes cyc-enter {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

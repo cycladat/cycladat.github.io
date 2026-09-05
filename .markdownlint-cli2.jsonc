@@ -1,0 +1,12 @@
+{
+  // Lint the Starlight content. Rules are tuned for docs pages with frontmatter.
+  "globs": ["src/content/docs/**/*.md", "src/content/docs/**/*.mdx", "README.md"],
+  "config": {
+    "default": true,
+    "MD013": false, // line length: prose is wrapped by hand, legal pages are long
+    "MD033": false, // inline HTML: legal pages carry <a id> anchors for Termly links
+    "MD041": false, // first line heading: Starlight supplies the title from frontmatter
+    "MD024": { "siblings_only": true },
+    "MD025": false // multiple h1: legal docs have their own title conventions
+  }
+}
