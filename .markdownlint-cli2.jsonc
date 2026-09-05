@@ -1,6 +1,6 @@
 {
   // Lint the Starlight content. Rules are tuned for docs pages with frontmatter.
-  "globs": ["src/content/docs/**/*.md", "src/content/docs/**/*.mdx", "README.md"],
+  "globs": ["src/content/docs/**/*.md", "src/content/docs/**/*.mdx", "README.md", "docs/*.md"],
   "config": {
     "default": true,
     "MD013": false, // line length: prose is wrapped by hand, legal pages are long

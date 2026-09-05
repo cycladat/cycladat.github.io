@@ -18,6 +18,11 @@ both have a page here.
   The numbers move, but they're showing a different part of the ride than the footage.
 - [The numbers look wrong](/help/troubleshooting/numbers-look-wrong/). Speed,
   altitude or gradient don't match what Strava shows, or what you remember.
+- [We couldn't find a matching activity](/help/troubleshooting/no-matching-activity/).
+  What the app looked for, and how to pick the ride yourself.
+- [Why is there a Strava logo on my video?](/help/troubleshooting/strava-logo/)
+- [Insta360 videos](/help/troubleshooting/insta360/). Two problems that stack, and the fix.
+- [Getting help](/help/troubleshooting/getting-help/). How to reach us and what to send.
 
 ## Getting things done
 
@@ -25,6 +30,10 @@ both have a page here.
 - [Fonts and colours](/help/how-to/fonts-and-colours/)
 - [Templates](/help/how-to/templates/)
 - [Trimming the clip](/help/how-to/trimming/)
+- [Using a FIT file instead of Strava](/help/how-to/fit-file/)
+- [Photos](/help/how-to/photos/)
+- [Exporting and sharing](/help/how-to/export-and-sharing/)
+- [Premium, purchases and refunds](/help/how-to/premium/)
 
 If you're stuck on something that isn't here, email
 [support@cycladat.com](mailto:support@cycladat.com). A screen recording of the

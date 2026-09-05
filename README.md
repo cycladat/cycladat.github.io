@@ -12,6 +12,7 @@ Astro + Starlight site for cycladat, deployed to GitHub Pages by
   ride under `testing/`, and the `CNAME`).
 - `scripts/termly-to-md.mjs`: the one-off converter that turned the Termly HTML
   exports into markdown. The markdown is now the source of truth; edit it directly.
+  See `docs/legal-pages.md` before touching the legal pages.
 
 ```sh
 pnpm install
