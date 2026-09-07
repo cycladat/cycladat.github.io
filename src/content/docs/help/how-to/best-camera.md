@@ -21,6 +21,10 @@ The "original, unedited" part is the whole trick. Trim or crop the clip in
 your phone's gallery first and the edited copy no longer knows when it was
 filmed. Do your trimming inside Cycladat instead:
 [trim in Cycladat, not on your phone](/help/how-to/trim-in-cycladat/).
+And if someone else filmed you, get the file by AirDrop, a shared link, or
+sent as a document, not as a normal WhatsApp or Instagram message. A chat
+copy is dated when it was received and never matches on its own:
+[sent through a messaging app](/help/troubleshooting/data-doesnt-line-up/#sent-through-a-messaging-app).
 
 ## 2. Ray-Ban Meta glasses
 

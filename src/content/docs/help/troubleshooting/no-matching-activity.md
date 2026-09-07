@@ -1,6 +1,6 @@
 ---
 title: We couldn't find a matching activity
-description: What the app looked for, why it didn't find it, and how to pick the ride yourself.
+description: Usually the video came through WhatsApp or the camera's clock was off. What the app looked for, why it didn't find it, and how to pick the ride yourself.
 sidebar:
   order: 3
 editUrl: false
@@ -8,7 +8,10 @@ editUrl: false
 
 You picked a video and instead of the editor you got "We couldn't find a
 matching activity for this video," and then a list of rides. Or, if you're
-using FIT files, a message asking you to upload one.
+using FIT files, a message asking you to upload one. Before reading on: if
+the clip arrived through WhatsApp or another messaging app, that's the
+reason, and [sent through a messaging app](/help/troubleshooting/data-doesnt-line-up/#sent-through-a-messaging-app)
+has the fix.
 
 ## What the app looked for
 
@@ -26,12 +29,18 @@ That leaves two possibilities, and the second is far more common.
 upload is still processing. Check the activity exists on strava.com, then
 try the video again.
 
-**The video's timestamp is wrong.** The camera's clock was off, or you
-trimmed the clip in your phone's gallery before importing it (the edited
-copy is dated when you edited it, not when you filmed it; see
+**The video's timestamp is wrong.** Most often because the clip came to
+you through WhatsApp or another messaging app: the copy a chat app delivers
+is dated when it was received, not when it was filmed, so the app looks for
+a ride at the wrong time of day and finds nothing (see
+[sent through a messaging app](/help/troubleshooting/data-doesnt-line-up/#sent-through-a-messaging-app)).
+Otherwise the camera's clock was off, or you trimmed the clip in your
+phone's gallery before importing it (the edited copy is dated when you
+edited it, not when you filmed it; see
 [trim in Cycladat, not on your phone](/help/how-to/trim-in-cycladat/)), or
-it's an Insta360 export. The ride exists, but the video claims to be from a time it doesn't
-cover. [My data doesn't line up](/help/troubleshooting/data-doesnt-line-up/)
+it's an Insta360 export. The ride exists, but the video claims to be from a
+time it doesn't cover.
+[My data doesn't line up](/help/troubleshooting/data-doesnt-line-up/)
 goes through every way that happens.
 
 ## Pick the ride yourself

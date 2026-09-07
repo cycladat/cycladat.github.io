@@ -11,6 +11,12 @@ A photo goes through the same door as a video. On the media screen tap
 app matches it to the ride the same way: by the time the photo was taken.
 Then the photo editor opens instead of the video one.
 
+That means the same rule as for video: use the original. A photo that came
+to you on WhatsApp, Instagram or Messenger is a recompressed copy dated when
+it arrived, so it won't find the ride on its own; ask for it as a document
+or by AirDrop instead. See
+[sent through a messaging app](/help/troubleshooting/data-doesnt-line-up/#sent-through-a-messaging-app).
+
 Nearly everything is the same. Same stickers, same drag, pinch and
 double-tap, same style panel and eyedropper, same alignment strip if the
 numbers are from the wrong moment. Two things are different.

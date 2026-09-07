@@ -25,7 +25,10 @@ wrong numbers on your video.
 
 The same goes for any edit that produces a new file: cropping, rotating,
 adding a filter, stitching clips, or "saving a copy" from a third-party
-editor.
+editor. And for any copy that came through a chat: a video received on
+WhatsApp, Instagram, Messenger or Telegram is a recompressed file dated when
+it arrived, so it has the same problem before you've touched it. See
+[sent through a messaging app](/help/troubleshooting/data-doesnt-line-up/#sent-through-a-messaging-app).
 
 ## What Cycladat does instead
 

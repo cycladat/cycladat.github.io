@@ -15,11 +15,12 @@ both have a page here.
 ## When something looks wrong
 
 - [My data doesn't line up with the video](/help/troubleshooting/data-doesnt-line-up/).
-  The numbers move, but they're showing a different part of the ride than the footage.
+  The numbers move, but they're showing a different part of the ride than the
+  footage. Usually the clip came through WhatsApp, or the camera's clock was off.
 - [The numbers look wrong](/help/troubleshooting/numbers-look-wrong/). Speed,
   altitude or gradient don't match what Strava shows, or what you remember.
 - [We couldn't find a matching activity](/help/troubleshooting/no-matching-activity/).
-  What the app looked for, and how to pick the ride yourself.
+  Same causes, and how to pick the ride yourself.
 - [Why is there a Strava logo on my video?](/help/troubleshooting/strava-logo/)
 - [Insta360 videos](/help/troubleshooting/insta360/). Two problems that stack, and the fix.
 - [Getting help](/help/troubleshooting/getting-help/). How to reach us and what to send.

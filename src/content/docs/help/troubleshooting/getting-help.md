@@ -51,7 +51,11 @@ sign in again as normal.
 Two things worth checking first, because they're the answer surprisingly
 often:
 
-- The camera's clock. Wrong time on the camera is behind most "the data is
-  wrong" reports. See [my data doesn't line up](/help/troubleshooting/data-doesnt-line-up/).
+- Where the video came from. A clip that arrived through WhatsApp,
+  Instagram, Messenger, Telegram or a group chat has lost the time it was
+  filmed, and nothing will match until you get the original. See
+  [sent through a messaging app](/help/troubleshooting/data-doesnt-line-up/#sent-through-a-messaging-app).
+- The camera's clock. Wrong time on the camera is behind most of the
+  remaining "the data is wrong" reports. See [my data doesn't line up](/help/troubleshooting/data-doesnt-line-up/).
 - That the ride is actually on Strava, and finished processing there,
   before you pick the video.
